@@ -6,7 +6,7 @@ const Single = (props) => {
     const handleEnroll = props.handleEnroll;
 
     return (
-        <div className="col-md-4">
+        <div className="col-md-4 box">
             <div className="card box" style={{width: "18rem"}}>
             <img src={image} className="card-img-top" alt="..."></img>
             <div className="card-body">

@@ -10,7 +10,6 @@ const Courses = () => {
     const handleEnroll = (course) => {
         const newEnroll = [...enroll, course];
         setEnroll(newEnroll);
-        console.log(newEnroll);
     }
     return (
     <div>
