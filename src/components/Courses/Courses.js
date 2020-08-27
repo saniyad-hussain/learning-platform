@@ -17,7 +17,7 @@ const Courses = () => {
         <div className="container">
          <div className="row">
             {
-                courses.map(course => <Single course={course} handleEnroll={handleEnroll}></Single>)
+                courses.map(course => <Single course={course} handleEnroll={handleEnroll} key={course.id}></Single>)
             }
          </div>
       </div>
